@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e290307-fb6d-4bb7-b01e-01d5a69220c9",
+    "id": "bundle--0a4727db-6cbc-4373-939f-ed72aae84df1",
     "objects": [
         {
             "id": "report--845919c1-b526-5b07-8a63-18b5f0b25c32",
@@ -8,7 +8,7 @@
             "revoked": false,
             "confidence": 64,
             "created": "2023-09-14T22:00:00.000Z",
-            "modified": "2023-08-29T12:58:05.710Z",
+            "modified": "2023-08-30T07:10:59.820Z",
             "name": "PoC bundle",
             "report_types": [
                 "threat-report"
@@ -39,6 +39,7 @@
                 "location--69b20db1-498b-59d4-8b79-83eee0456cff",
                 "malware--87da771c-3d76-5172-b669-501be3cfed06",
                 "malware--a9ad4436-8488-5db7-82ac-28a818faf27b",
+                "malware--b9ae3909-bea0-5146-8a0a-f7cf869026a7",
                 "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
                 "vulnerability--c1349052-4b3d-53de-9393-dab76dd01052",
                 "relationship--09eed732-cf2d-4025-9963-f9a3c69c120e",
@@ -53,12 +54,15 @@
                 "relationship--6acc9ee0-6952-4c0d-bb66-bbded72519fb",
                 "relationship--7110e004-1327-401d-9fb5-d85ba62a08f6",
                 "relationship--7d7aef57-78f2-4be9-9c57-cf18083aa4df",
+                "relationship--86b3f184-dab6-42fa-9f25-13d04cc31da5",
                 "relationship--99680455-a51e-4dd5-a64f-92f325c54658",
                 "relationship--a3afdea1-0f4f-4b1c-b8e2-22fef2c9e026",
                 "relationship--a923a9a0-aed7-460f-9c16-f5fe75b89c90",
+                "relationship--b17cfd60-4620-4f3d-8c9a-420df5a6be87",
                 "relationship--b9500121-585e-47a7-8852-7a3134b082a5",
                 "relationship--bb5b6305-dd9b-4792-949e-1204fc1ae98a",
-                "relationship--cd0a3ff2-69f5-434d-8724-9f1b8e5abe78"
+                "relationship--cd0a3ff2-69f5-434d-8724-9f1b8e5abe78",
+                "relationship--d98445d5-802f-4c38-bc6e-bbe623b61864"
             ]
         },
         {
@@ -468,6 +472,34 @@
             "type": "malware"
         },
         {
+            "id": "malware--b9ae3909-bea0-5146-8a0a-f7cf869026a7",
+            "spec_version": "2.1",
+            "revoked": false,
+            "confidence": 75,
+            "created": "2023-08-29T15:05:40.713Z",
+            "modified": "2023-08-29T15:07:30.574Z",
+            "name": "Dware-alt",
+            "description": "Variant of the Dware malware",
+            "malware_types": [
+                "remote-access-trojan"
+            ],
+            "is_family": false,
+            "last_seen": "2023-03-14T08:44:00.000Z",
+            "capabilities": [
+                "accesses-remote-machines"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mandiant-attack-lifecycle-model",
+                    "phase_name": "escalate-privileges",
+                    "x_opencti_order": 0
+                }
+            ],
+            "x_opencti_id": "242be10f-a796-4612-a305-e41c5607f185",
+            "x_opencti_type": "Malware",
+            "type": "malware"
+        },
+        {
             "id": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
             "spec_version": "2.1",
             "revoked": false,
@@ -723,6 +755,23 @@
             "target_ref": "malware--a9ad4436-8488-5db7-82ac-28a818faf27b"
         },
         {
+            "id": "relationship--86b3f184-dab6-42fa-9f25-13d04cc31da5",
+            "spec_version": "2.1",
+            "relationship_type": "indicates",
+            "start_time": "2023-09-14T22:00:00.000Z",
+            "stop_time": "2023-09-14T22:00:00.000Z",
+            "revoked": false,
+            "confidence": 75,
+            "lang": "en",
+            "created": "2023-08-30T07:10:59.711Z",
+            "modified": "2023-08-30T07:10:59.711Z",
+            "x_opencti_id": "e4aa2ae6-6e45-47bd-9051-1f440edffb1d",
+            "x_opencti_type": "indicates",
+            "type": "relationship",
+            "source_ref": "indicator--21d281f3-77af-593f-a40d-4154f83148da",
+            "target_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b"
+        },
+        {
             "id": "relationship--99680455-a51e-4dd5-a64f-92f325c54658",
             "spec_version": "2.1",
             "relationship_type": "indicates",
@@ -772,6 +821,23 @@
             "target_ref": "intrusion-set--a45bee91-a918-5052-be46-675d5a57171e"
         },
         {
+            "id": "relationship--b17cfd60-4620-4f3d-8c9a-420df5a6be87",
+            "spec_version": "2.1",
+            "relationship_type": "indicates",
+            "start_time": "2023-09-14T22:00:00.000Z",
+            "stop_time": "2023-09-14T22:00:00.000Z",
+            "revoked": false,
+            "confidence": 75,
+            "lang": "en",
+            "created": "2023-08-30T07:10:24.287Z",
+            "modified": "2023-08-30T07:10:24.287Z",
+            "x_opencti_id": "66ea99ff-decb-4976-b766-7b64cfd80fea",
+            "x_opencti_type": "indicates",
+            "type": "relationship",
+            "source_ref": "indicator--18906d97-cfa2-5ff3-a695-7e1d199a7f0a",
+            "target_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b"
+        },
+        {
             "id": "relationship--b9500121-585e-47a7-8852-7a3134b082a5",
             "spec_version": "2.1",
             "relationship_type": "uses",
@@ -817,6 +883,23 @@
             "type": "relationship",
             "source_ref": "indicator--b44559f1-14e4-585f-91bc-6b06b9145856",
             "target_ref": "malware--87da771c-3d76-5172-b669-501be3cfed06"
+        },
+        {
+            "id": "relationship--d98445d5-802f-4c38-bc6e-bbe623b61864",
+            "spec_version": "2.1",
+            "relationship_type": "uses",
+            "start_time": "2023-09-14T22:00:00.000Z",
+            "stop_time": "2023-09-14T22:00:00.000Z",
+            "revoked": false,
+            "confidence": 75,
+            "lang": "en",
+            "created": "2023-08-29T15:06:44.919Z",
+            "modified": "2023-08-29T15:06:44.919Z",
+            "x_opencti_id": "2842b886-f69d-4ca0-acb0-15ce3d3a86c4",
+            "x_opencti_type": "uses",
+            "type": "relationship",
+            "source_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+            "target_ref": "malware--b9ae3909-bea0-5146-8a0a-f7cf869026a7"
         }
     ]
 }
