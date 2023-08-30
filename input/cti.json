@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a4727db-6cbc-4373-939f-ed72aae84df1",
+    "id": "bundle--59217f3b-8fbd-44d4-9e9b-910846c3ef37",
     "objects": [
         {
             "id": "report--845919c1-b526-5b07-8a63-18b5f0b25c32",
@@ -8,7 +8,7 @@
             "revoked": false,
             "confidence": 64,
             "created": "2023-09-14T22:00:00.000Z",
-            "modified": "2023-08-30T07:10:59.820Z",
+            "modified": "2023-08-30T07:25:24.888Z",
             "name": "PoC bundle",
             "report_types": [
                 "threat-report"
@@ -35,6 +35,7 @@
                 "indicator--b44559f1-14e4-585f-91bc-6b06b9145856",
                 "indicator--f6d0c5d3-2b5d-5eb9-9cf9-63892891d74c",
                 "indicator--fa218159-a458-537d-aeff-15f0bfb8ad63",
+                "infrastructure--509eb5e5-10b9-525c-8ba8-c342c51c4b45",
                 "intrusion-set--a45bee91-a918-5052-be46-675d5a57171e",
                 "location--69b20db1-498b-59d4-8b79-83eee0456cff",
                 "malware--87da771c-3d76-5172-b669-501be3cfed06",
@@ -43,7 +44,6 @@
                 "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
                 "vulnerability--c1349052-4b3d-53de-9393-dab76dd01052",
                 "relationship--09eed732-cf2d-4025-9963-f9a3c69c120e",
-                "relationship--1a14cdc5-5b14-49e9-8d5c-0e01b16ae8fb",
                 "relationship--2268c514-f07f-4d95-ad6b-a252bb058637",
                 "relationship--24d605f2-c7f4-4b8a-b364-8f736a2e30ab",
                 "relationship--2842c851-5fcd-4a7a-a3ea-82f08a3e9273",
@@ -58,11 +58,14 @@
                 "relationship--99680455-a51e-4dd5-a64f-92f325c54658",
                 "relationship--a3afdea1-0f4f-4b1c-b8e2-22fef2c9e026",
                 "relationship--a923a9a0-aed7-460f-9c16-f5fe75b89c90",
+                "relationship--ab867f8d-a0ed-41ed-8350-58b404e028c4",
                 "relationship--b17cfd60-4620-4f3d-8c9a-420df5a6be87",
                 "relationship--b9500121-585e-47a7-8852-7a3134b082a5",
                 "relationship--bb5b6305-dd9b-4792-949e-1204fc1ae98a",
+                "relationship--cc4cdcf2-7d9c-4940-ab23-7a371d7f1bb4",
                 "relationship--cd0a3ff2-69f5-434d-8724-9f1b8e5abe78",
-                "relationship--d98445d5-802f-4c38-bc6e-bbe623b61864"
+                "relationship--d98445d5-802f-4c38-bc6e-bbe623b61864",
+                "relationship--e07a1d05-d0d1-43b4-944d-9566a21ff863"
             ]
         },
         {
@@ -391,6 +394,23 @@
             "type": "indicator"
         },
         {
+            "id": "infrastructure--509eb5e5-10b9-525c-8ba8-c342c51c4b45",
+            "spec_version": "2.1",
+            "revoked": false,
+            "confidence": 35,
+            "created": "2023-08-30T07:23:57.409Z",
+            "modified": "2023-08-30T07:24:25.254Z",
+            "name": "Exfiltration server",
+            "description": "External server used by Artemis to exfiltrate data to. The link between the server and the target is usually a covert channel. It has low confidence due to the few sightings of this infrastructure in IDSs",
+            "infrastructure_types": [
+                "exfiltration"
+            ],
+            "last_seen": "2023-02-15T23:00:00.000Z",
+            "x_opencti_id": "976223d9-c738-4a91-bd17-14d8981bd67f",
+            "x_opencti_type": "Infrastructure",
+            "type": "infrastructure"
+        },
+        {
             "id": "intrusion-set--a45bee91-a918-5052-be46-675d5a57171e",
             "spec_version": "2.1",
             "revoked": false,
@@ -569,23 +589,6 @@
             "type": "relationship",
             "source_ref": "indicator--fa218159-a458-537d-aeff-15f0bfb8ad63",
             "target_ref": "malware--87da771c-3d76-5172-b669-501be3cfed06"
-        },
-        {
-            "id": "relationship--1a14cdc5-5b14-49e9-8d5c-0e01b16ae8fb",
-            "spec_version": "2.1",
-            "relationship_type": "attributed-to",
-            "start_time": "2023-07-14T23:14:00.000Z",
-            "stop_time": "2023-08-01T09:49:00.000Z",
-            "revoked": false,
-            "confidence": 75,
-            "lang": "en",
-            "created": "2023-08-16T13:24:56.893Z",
-            "modified": "2023-08-16T13:24:56.893Z",
-            "x_opencti_id": "9e9a0192-354e-42df-aca6-79107963f060",
-            "x_opencti_type": "attributed-to",
-            "type": "relationship",
-            "source_ref": "intrusion-set--a45bee91-a918-5052-be46-675d5a57171e",
-            "target_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b"
         },
         {
             "id": "relationship--2268c514-f07f-4d95-ad6b-a252bb058637",
@@ -821,6 +824,24 @@
             "target_ref": "intrusion-set--a45bee91-a918-5052-be46-675d5a57171e"
         },
         {
+            "id": "relationship--ab867f8d-a0ed-41ed-8350-58b404e028c4",
+            "spec_version": "2.1",
+            "relationship_type": "related-to",
+            "description": "APT2312 is believe to be an intrusion set linked to Artemis, with medium confidence",
+            "start_time": "2023-09-14T22:00:00.000Z",
+            "stop_time": "2023-09-14T22:00:00.000Z",
+            "revoked": false,
+            "confidence": 43,
+            "lang": "en",
+            "created": "2023-08-30T07:18:50.608Z",
+            "modified": "2023-08-30T07:18:50.608Z",
+            "x_opencti_id": "e718da2a-4672-4501-93e3-1d4db58b71fb",
+            "x_opencti_type": "related-to",
+            "type": "relationship",
+            "source_ref": "intrusion-set--a45bee91-a918-5052-be46-675d5a57171e",
+            "target_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b"
+        },
+        {
             "id": "relationship--b17cfd60-4620-4f3d-8c9a-420df5a6be87",
             "spec_version": "2.1",
             "relationship_type": "indicates",
@@ -870,6 +891,23 @@
             "target_ref": "malware--87da771c-3d76-5172-b669-501be3cfed06"
         },
         {
+            "id": "relationship--cc4cdcf2-7d9c-4940-ab23-7a371d7f1bb4",
+            "spec_version": "2.1",
+            "relationship_type": "uses",
+            "start_time": "2023-09-14T22:00:00.000Z",
+            "stop_time": "2023-09-14T22:00:00.000Z",
+            "revoked": false,
+            "confidence": 59,
+            "lang": "en",
+            "created": "2023-08-30T07:24:58.420Z",
+            "modified": "2023-08-30T07:24:58.420Z",
+            "x_opencti_id": "9ceab61f-e5a7-48ce-b529-10e40f0bc421",
+            "x_opencti_type": "uses",
+            "type": "relationship",
+            "source_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+            "target_ref": "infrastructure--509eb5e5-10b9-525c-8ba8-c342c51c4b45"
+        },
+        {
             "id": "relationship--cd0a3ff2-69f5-434d-8724-9f1b8e5abe78",
             "spec_version": "2.1",
             "relationship_type": "indicates",
@@ -900,6 +938,23 @@
             "type": "relationship",
             "source_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
             "target_ref": "malware--b9ae3909-bea0-5146-8a0a-f7cf869026a7"
+        },
+        {
+            "id": "relationship--e07a1d05-d0d1-43b4-944d-9566a21ff863",
+            "spec_version": "2.1",
+            "relationship_type": "exfiltrates-to",
+            "start_time": "2023-09-14T22:00:00.000Z",
+            "stop_time": "2023-09-14T22:00:00.000Z",
+            "revoked": false,
+            "confidence": 75,
+            "lang": "en",
+            "created": "2023-08-30T07:25:24.759Z",
+            "modified": "2023-08-30T07:25:24.759Z",
+            "x_opencti_id": "ea29e734-f678-44b7-a8a8-07b4ceecee91",
+            "x_opencti_type": "exfiltrates-to",
+            "type": "relationship",
+            "source_ref": "malware--b9ae3909-bea0-5146-8a0a-f7cf869026a7",
+            "target_ref": "infrastructure--509eb5e5-10b9-525c-8ba8-c342c51c4b45"
         }
     ]
 }
