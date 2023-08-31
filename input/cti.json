@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18a24ad5-5f76-4961-a40c-097709655173",
+    "id": "bundle--98c7beda-bcd5-498a-9c8a-51c4e5c10664",
     "objects": [
         {
             "id": "report--845919c1-b526-5b07-8a63-18b5f0b25c32",
@@ -8,7 +8,7 @@
             "revoked": false,
             "confidence": 64,
             "created": "2023-09-14T22:00:00.000Z",
-            "modified": "2023-08-30T07:25:24.888Z",
+            "modified": "2023-08-31T11:46:58.168Z",
             "name": "PoC bundle",
             "report_types": [
                 "threat-report"
@@ -455,9 +455,9 @@
             "revoked": false,
             "confidence": 15,
             "created": "2023-08-17T13:37:12.407Z",
-            "modified": "2023-08-17T13:37:12.407Z",
+            "modified": "2023-08-31T11:48:23.378Z",
             "name": "DoSpark",
-            "description": "This malware exploits a vulnerability in nginx allowing the attacker to HTTP flood the server with spoofed source IP, with the goal of perform DoS.",
+            "description": "This malware exploits a vulnerability in nginx allowing the attacker to HTTP flood the server with spoofed source IP, with the goal of perform DoS. It has recently been used by attackers targeting spatial missions or space related companies",
             "malware_types": [
                 "remote-access-trojan",
                 "back_door"
