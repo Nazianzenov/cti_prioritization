@@ -1,0 +1,1061 @@
+{
+    "attack_patterns": [
+        {
+            "code": "CAPEC-175",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-22",
+            "cwes": [
+                "CWE-20",
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "azure-cloud-govspace",
+                "nodejs_wapp-astra",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-228",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-101",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-71",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-35",
+            "cwes": [
+                "CWE-59"
+            ],
+            "asset_refs": []
+        },
+        {
+            "code": "CAPEC-85",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-230",
+            "cwes": [
+                "CWE-20",
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-233",
+            "cwes": [
+                "CWE-269"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace"
+            ]
+        },
+        {
+            "code": "CAPEC-660",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-29",
+            "cwes": [
+                "CWE-665"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace"
+            ]
+        },
+        {
+            "code": "CAPEC-495",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-7",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-486",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-72",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-57",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-114",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-698",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-493",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-491",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-13",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-136",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-209",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-43",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-79",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-83",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-231",
+            "cwes": [
+                "CWE-20",
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-33",
+            "cwes": [
+                "CWE-444"
+            ],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-153",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-130",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-528",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-488",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-3",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-482",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-17",
+            "cwes": [
+                "CWE-59"
+            ],
+            "asset_refs": []
+        },
+        {
+            "code": "CAPEC-63",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-81",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-201",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-469",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-492",
+            "cwes": [
+                "CWE-400"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-135",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-52",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-110",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-227",
+            "cwes": [
+                "CWE-400"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-24",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-58",
+            "cwes": [
+                "CWE-269"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace"
+            ]
+        },
+        {
+            "code": "CAPEC-10",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-42",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-115",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-490",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-53",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-695",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-489",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-14",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-76",
+            "cwes": [
+                "CWE-59"
+            ],
+            "asset_refs": []
+        },
+        {
+            "code": "CAPEC-250",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-194",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-104",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-588",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-122",
+            "cwes": [
+                "CWE-269"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace"
+            ]
+        },
+        {
+            "code": "CAPEC-151",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-8",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-229",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-487",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-273",
+            "cwes": [
+                "CWE-444"
+            ],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-664",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-31",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-80",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-253",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-92",
+            "cwes": [
+                "CWE-190"
+            ],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-64",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-549",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-23",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-650",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-78",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-494",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-109",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-125",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-267",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-132",
+            "cwes": [
+                "CWE-59"
+            ],
+            "asset_refs": []
+        },
+        {
+            "code": "CAPEC-182",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-28",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-67",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-251",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-459",
+            "cwes": [
+                "CWE-295"
+            ],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-88",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-73",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-473",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-263",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-26",
+            "cwes": [
+                "CWE-665"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace"
+            ]
+        },
+        {
+            "code": "CAPEC-475",
+            "cwes": [
+                "CWE-295"
+            ],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-46",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-147",
+            "cwes": [
+                "CWE-400",
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-197",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-496",
+            "cwes": [
+                "CWE-770"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-261",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-120",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-593",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-108",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-47",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-538",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-9",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-252",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-633",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-640",
+            "cwes": [
+                "CWE-829"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CAPEC-94",
+            "cwes": [
+                "CWE-287"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CAPEC-45",
+            "cwes": [
+                "CWE-20"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        }
+    ]
+}

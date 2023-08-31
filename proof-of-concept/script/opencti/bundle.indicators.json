@@ -1,0 +1,102 @@
+{
+    "type": "bundle",
+    "id": "bundle--c991caff-a33e-4b22-8e21-26f6f6c3620d",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5de4b727-0ee5-4ff4-be8d-05052c4c67b2",
+            "created": "2023-08-29T12:55:34.903694Z",
+            "modified": "2023-08-29T12:55:34.903694Z",
+            "name": "http://XefZ.08Uj2n.xyz",
+            "description": "IP addresses referring to external servers used by APT2312 to exfiltrate data",
+            "indicator_types": [
+                "['attribution','malicious-activity']"
+            ],
+            "pattern": "[ipv4-addr:value = '87.197.99.244/32' OR ipv4-addr:value = '55.137.23.148/32']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-29T12:55:34.903694Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a92365da-063b-4359-af69-7b6c5fe19648",
+            "created": "2023-08-29T12:55:34.908913Z",
+            "modified": "2023-08-29T12:55:34.908913Z",
+            "name": "http://ZgWE.57cH1L.com",
+            "description": "IP addresses referring to external servers used by APT2312 to exfiltrate data",
+            "indicator_types": [
+                "['attribution','malicious-activity']"
+            ],
+            "pattern": "[ipv4-addr:value = '57.59.147.60/32' OR ipv4-addr:value = '55.151.38.5/32']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-29T12:55:34.908913Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--58e669f8-c9f5-4091-b854-6c9eb0cda937",
+            "created": "2023-08-29T12:55:34.909824Z",
+            "modified": "2023-08-29T12:55:34.909824Z",
+            "name": "http://svPb.69aW4A.net",
+            "description": "IP addresses referring to external servers used by APT2312 to exfiltrate data",
+            "indicator_types": [
+                "['attribution','malicious-activity']"
+            ],
+            "pattern": "[ipv4-addr:value = '211.157.38.183/32' OR ipv4-addr:value = '138.68.12.67/32']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-29T12:55:34.909824Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b7adb589-4cd3-412c-b627-e964122c7f21",
+            "created": "2023-08-29T12:55:34.910689Z",
+            "modified": "2023-08-29T12:55:34.910689Z",
+            "name": "http://gofs.27KY7H.ru",
+            "description": "IP addresses referring to external servers used by APT2312 to exfiltrate data",
+            "indicator_types": [
+                "['attribution','malicious-activity']"
+            ],
+            "pattern": "[ipv4-addr:value = '95.163.46.161/32' OR ipv4-addr:value = '24.145.93.145/32']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-29T12:55:34.910689Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--acc47fde-42d8-426d-9fff-4a9274c28601",
+            "created": "2023-08-29T12:55:34.911476Z",
+            "modified": "2023-08-29T12:55:34.911476Z",
+            "name": "http://sMrl.76da5w.pl",
+            "description": "IP addresses referring to external servers used by APT2312 to exfiltrate data",
+            "indicator_types": [
+                "['attribution','malicious-activity']"
+            ],
+            "pattern": "[ipv4-addr:value = '60.187.242.98/32' OR ipv4-addr:value = '53.211.109.47/32']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-29T12:55:34.911476Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0c1296e4-d732-4281-8477-061a3d6d7d35",
+            "created": "2023-08-29T12:55:34.912864Z",
+            "modified": "2023-08-29T12:55:34.912864Z",
+            "name": "http://FamY.33FJ1g.lu",
+            "description": "IP addresses referring to external servers used by APT2312 to exfiltrate data",
+            "indicator_types": [
+                "['attribution','malicious-activity']"
+            ],
+            "pattern": "[ipv4-addr:value = '151.90.11.5/32' OR ipv4-addr:value = '22.84.93.159/32']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-29T12:55:34.912864Z"
+        }
+    ]
+}

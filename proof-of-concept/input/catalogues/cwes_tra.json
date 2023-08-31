@@ -1,0 +1,288 @@
+{
+    "weaknesses": [
+        {
+            "code": "CWE-190",
+            "vulnerabilities": [
+                "CVE-2017-20005",
+                "CVE-2017-7529"
+            ],
+            "capecs": [
+                "CAPEC-92"
+            ],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CWE-295",
+            "vulnerabilities": [
+                "CVE-2021-3618"
+            ],
+            "capecs": [
+                "CAPEC-459",
+                "CAPEC-475"
+            ],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CWE-476",
+            "vulnerabilities": [
+                "CVE-2016-0742"
+            ],
+            "capecs": [],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CWE-20",
+            "vulnerabilities": [
+                "CVE-2018-12123",
+                "CVE-2017-11499"
+            ],
+            "capecs": [
+                "CAPEC-10",
+                "CAPEC-101",
+                "CAPEC-104",
+                "CAPEC-108",
+                "CAPEC-109",
+                "CAPEC-110",
+                "CAPEC-120",
+                "CAPEC-13",
+                "CAPEC-135",
+                "CAPEC-136",
+                "CAPEC-14",
+                "CAPEC-153",
+                "CAPEC-182",
+                "CAPEC-209",
+                "CAPEC-22",
+                "CAPEC-23",
+                "CAPEC-230",
+                "CAPEC-231",
+                "CAPEC-24",
+                "CAPEC-250",
+                "CAPEC-261",
+                "CAPEC-267",
+                "CAPEC-28",
+                "CAPEC-3",
+                "CAPEC-31",
+                "CAPEC-42",
+                "CAPEC-43",
+                "CAPEC-45",
+                "CAPEC-46",
+                "CAPEC-47",
+                "CAPEC-473",
+                "CAPEC-52",
+                "CAPEC-53",
+                "CAPEC-588",
+                "CAPEC-63",
+                "CAPEC-64",
+                "CAPEC-664",
+                "CAPEC-67",
+                "CAPEC-7",
+                "CAPEC-71",
+                "CAPEC-72",
+                "CAPEC-73",
+                "CAPEC-78",
+                "CAPEC-79",
+                "CAPEC-8",
+                "CAPEC-80",
+                "CAPEC-81",
+                "CAPEC-83",
+                "CAPEC-85",
+                "CAPEC-88",
+                "CAPEC-9"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CWE-829",
+            "vulnerabilities": [
+                "CVE-2018-12120"
+            ],
+            "capecs": [
+                "CAPEC-175",
+                "CAPEC-201",
+                "CAPEC-228",
+                "CAPEC-251",
+                "CAPEC-252",
+                "CAPEC-253",
+                "CAPEC-263",
+                "CAPEC-538",
+                "CAPEC-549",
+                "CAPEC-640",
+                "CAPEC-660",
+                "CAPEC-695",
+                "CAPEC-698"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CWE-269",
+            "vulnerabilities": [
+                "CVE-2021-38645",
+                "CVE-2021-38649"
+            ],
+            "capecs": [
+                "CAPEC-122",
+                "CAPEC-233",
+                "CAPEC-58"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace"
+            ]
+        },
+        {
+            "code": "CWE-400",
+            "vulnerabilities": [
+                "CVE-2016-0747",
+                "CVE-2018-12122",
+                "CVE-2018-12121"
+            ],
+            "capecs": [
+                "CAPEC-147",
+                "CAPEC-227",
+                "CAPEC-492"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra",
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CWE-444",
+            "vulnerabilities": [
+                "CVE-2019-20372"
+            ],
+            "capecs": [
+                "CAPEC-273",
+                "CAPEC-33"
+            ],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CWE-416",
+            "vulnerabilities": [
+                "CVE-2016-0746"
+            ],
+            "capecs": [],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CWE-787",
+            "vulnerabilities": [
+                "CVE-2018-12115"
+            ],
+            "capecs": [],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CWE-770",
+            "vulnerabilities": [
+                "CVE-2019-5739",
+                "CVE-2019-5737"
+            ],
+            "capecs": [
+                "CAPEC-125",
+                "CAPEC-130",
+                "CAPEC-147",
+                "CAPEC-197",
+                "CAPEC-229",
+                "CAPEC-230",
+                "CAPEC-231",
+                "CAPEC-469",
+                "CAPEC-482",
+                "CAPEC-486",
+                "CAPEC-487",
+                "CAPEC-488",
+                "CAPEC-489",
+                "CAPEC-490",
+                "CAPEC-491",
+                "CAPEC-493",
+                "CAPEC-494",
+                "CAPEC-495",
+                "CAPEC-496",
+                "CAPEC-528"
+            ],
+            "asset_refs": [
+                "nodejs_wapp-govspace",
+                "nodejs_wapp-astra"
+            ]
+        },
+        {
+            "code": "CWE-665",
+            "vulnerabilities": [
+                "CVE-2021-38647"
+            ],
+            "capecs": [
+                "CAPEC-26",
+                "CAPEC-29"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace"
+            ]
+        },
+        {
+            "code": "CWE-59",
+            "vulnerabilities": [
+                "CVE-2016-1247"
+            ],
+            "capecs": [
+                "CAPEC-132",
+                "CAPEC-17",
+                "CAPEC-35",
+                "CAPEC-76"
+            ],
+            "asset_refs": []
+        },
+        {
+            "code": "CWE-193",
+            "vulnerabilities": [
+                "CVE-2021-23017"
+            ],
+            "capecs": [],
+            "asset_refs": [
+                "nginx-keycloack-wserver"
+            ]
+        },
+        {
+            "code": "CWE-287",
+            "vulnerabilities": [
+                "CVE-2023-1477",
+                "CVE-2021-38648"
+            ],
+            "capecs": [
+                "CAPEC-114",
+                "CAPEC-115",
+                "CAPEC-151",
+                "CAPEC-194",
+                "CAPEC-22",
+                "CAPEC-57",
+                "CAPEC-593",
+                "CAPEC-633",
+                "CAPEC-650",
+                "CAPEC-94"
+            ],
+            "asset_refs": [
+                "azure-cloud-govspace",
+                "nginx-keycloack-wserver"
+            ]
+        }
+    ]
+}

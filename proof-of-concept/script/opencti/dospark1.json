@@ -1,0 +1,180 @@
+{
+    "type": "bundle",
+    "id": "bundle--0908309c-05b8-4273-aabc-f168df623545",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0e3a7e64-5bee-475f-9485-62b5c0d03246",
+            "created": "2023-08-17T13:37:12.407885Z",
+            "modified": "2023-08-17T13:37:12.407885Z",
+            "name": "website hosting malware downloader",
+            "description": "This url refers to a website hosting malware downloader indicating the Malware DoSpark",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'http://tweg.23sw1b.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-17T13:37:12.407885Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e9a01ce6-9553-4522-ae61-c83c68443b3b",
+            "created": "2023-08-17T13:37:12.408593Z",
+            "modified": "2023-08-17T13:37:12.408593Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--0e3a7e64-5bee-475f-9485-62b5c0d03246",
+            "target_ref": "malware--a57f8ce7-af5a-4bac-9990-e3783a7dd390"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--2baa4a05-ef6b-4cfc-a7c2-614ede867cb7",
+            "created": "2023-08-17T13:37:12.408738Z",
+            "modified": "2023-08-17T13:37:12.408738Z",
+            "name": "website hosting malware downloader",
+            "description": "This url refers to a website hosting malware downloader indicating the Malware DoSpark",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'http://imso.94te2h.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-17T13:37:12.408738Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e7c1a3ec-d219-45c3-a457-c5a03faa327c",
+            "created": "2023-08-17T13:37:12.409353Z",
+            "modified": "2023-08-17T13:37:12.409353Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--2baa4a05-ef6b-4cfc-a7c2-614ede867cb7",
+            "target_ref": "malware--a57f8ce7-af5a-4bac-9990-e3783a7dd390"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0141d724-58e9-43ad-93ee-811538dc4b75",
+            "created": "2023-08-17T13:37:12.40948Z",
+            "modified": "2023-08-17T13:37:12.40948Z",
+            "name": "website hosting malware downloader",
+            "description": "This url refers to a website hosting malware downloader indicating the Malware DoSpark",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'http://leee.44ne3e.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-17T13:37:12.40948Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--10d382f1-b591-492c-851e-57770af15ab7",
+            "created": "2023-08-17T13:37:12.409904Z",
+            "modified": "2023-08-17T13:37:12.409904Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--0141d724-58e9-43ad-93ee-811538dc4b75",
+            "target_ref": "malware--a57f8ce7-af5a-4bac-9990-e3783a7dd390"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--abee5a10-6ca4-4f2f-9e53-3d3e4ac8f1b6",
+            "created": "2023-08-17T13:37:12.410044Z",
+            "modified": "2023-08-17T13:37:12.410044Z",
+            "name": "DoSpark variant",
+            "description": "This hash refers to the checksum of a file of a variant of the Malware DoSpark",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[file:hashes.'SHA-256' = '4149d801d69aae5b702e7ba372d9b79fd8f18109f80553de7a005734101dc713']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-17T13:37:12.410044Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--af78675f-e2a7-4413-adc0-caa3758512a2",
+            "created": "2023-08-17T13:37:12.412083Z",
+            "modified": "2023-08-17T13:37:12.412083Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--abee5a10-6ca4-4f2f-9e53-3d3e4ac8f1b6",
+            "target_ref": "malware--a57f8ce7-af5a-4bac-9990-e3783a7dd390"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f17ff36f-b019-4f2a-b6f4-8c6daecd80b9",
+            "created": "2023-08-17T13:37:12.412255Z",
+            "modified": "2023-08-17T13:37:12.412255Z",
+            "name": "DoSpark variant",
+            "description": "This hash refers to the checksum of a file of a variant of the Malware DoSpark",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[file:hashes.'SHA-256' = 'cc7e4966863bba732df4932b4b788130103eecf410cd8a5c3d861e8dec679c13']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-17T13:37:12.412255Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--91cf68ad-c7fc-49e3-ad18-399042bed3bd",
+            "created": "2023-08-17T13:37:12.412858Z",
+            "modified": "2023-08-17T13:37:12.412858Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--f17ff36f-b019-4f2a-b6f4-8c6daecd80b9",
+            "target_ref": "malware--a57f8ce7-af5a-4bac-9990-e3783a7dd390"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--2e67ab83-e8c3-45d2-92b4-ecf53aad40b0",
+            "created": "2023-08-17T13:37:12.413011Z",
+            "modified": "2023-08-17T13:37:12.413011Z",
+            "name": "DoSpark variant",
+            "description": "This hash refers to the checksum of a file of a variant of the Malware DoSpark",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[file:hashes.'SHA-256' = '19431afcb5850759e1323d8b0e5ba3dbd90deeac14172dea58efce8002681a8f']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-08-17T13:37:12.413011Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--880cc2cf-08e5-44e1-8ac9-3e69a2abefd5",
+            "created": "2023-08-17T13:37:12.413549Z",
+            "modified": "2023-08-17T13:37:12.413549Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--2e67ab83-e8c3-45d2-92b4-ecf53aad40b0",
+            "target_ref": "malware--a57f8ce7-af5a-4bac-9990-e3783a7dd390"
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--a57f8ce7-af5a-4bac-9990-e3783a7dd390",
+            "created": "2023-08-17T13:37:12.407701Z",
+            "modified": "2023-08-17T13:37:12.407701Z",
+            "name": "DoSpark",
+            "description": "This malware exploits a vulnerability in nginx allowing the attacker to HTTP flood the server with spoofed source IP, with the goal of perform DoS.",
+            "malware_types": [
+                "back_door",
+                "remote-access-trojan"
+            ],
+            "is_family": true,
+            "capabilities": [
+                "accesses-remote-machines",
+                "compromises-system-availability"
+            ]
+        }
+    ]
+}
