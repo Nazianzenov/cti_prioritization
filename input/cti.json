@@ -536,7 +536,7 @@
                 "malware-author"
             ],
             "goals": [
-                "RDMTA101 has been identified as a group of cyber- criminals tied with the APT2132 intrusion  set. They are known for having authored several malware, in particular used for data exfiltration."
+                "RDMTA101 has been identified as a group of cyber- criminals tied with the APT2132 intrusion  set. They are known for having authored several malware, in particular used for data exfiltration. This threat actor usually targets the aerospace and telecommunications sectors, as well as governments and spatial institutions."
             ],
             "sophistication": "expert",
             "resource_level": "government",
@@ -839,7 +839,7 @@
             "x_opencti_type": "related-to",
             "type": "relationship",
             "source_ref": "intrusion-set--a45bee91-a918-5052-be46-675d5a57171e",
-            "target_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30"
+            "target_ref": "tor--a08da031-a765-5ad5-9437-e256d7aadc30"
         },
         {
             "id": "relationship--b17cfd60-4620-4f3d-8c9a-420df5a6be87",
