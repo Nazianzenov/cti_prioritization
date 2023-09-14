@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98c7beda-bcd5-498a-9c8a-51c4e5c10664",
+    "id": "bundle--d0f8ffb6-8f66-431a-99ab-d4d41ba14d84",
     "objects": [
         {
             "id": "report--845919c1-b526-5b07-8a63-18b5f0b25c32",
@@ -41,7 +41,7 @@
                 "malware--87da771c-3d76-5172-b669-501be3cfed06",
                 "malware--a9ad4436-8488-5db7-82ac-28a818faf27b",
                 "malware--b9ae3909-bea0-5146-8a0a-f7cf869026a7",
-                "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+                "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30",
                 "vulnerability--c1349052-4b3d-53de-9393-dab76dd01052",
                 "relationship--09eed732-cf2d-4025-9963-f9a3c69c120e",
                 "relationship--2268c514-f07f-4d95-ad6b-a252bb058637",
@@ -76,7 +76,7 @@
             "created": "2023-08-28T12:09:01.514Z",
             "modified": "2023-08-28T12:12:36.380Z",
             "name": "Exploitation For Privilege Escalation",
-            "description": "The use of Dware also allows Artemis to gain privilege within a webserver in order to steal credentials and sensitive information. They can be useful for accessing clouds or database secured by access control.",
+            "description": "The use of Dware also allows RDMTA101 to gain privilege within a webserver in order to steal credentials and sensitive information. They can be useful for accessing clouds or database secured by access control.",
             "x_mitre_platforms": [
                 "linux",
                 "windows"
@@ -401,7 +401,7 @@
             "created": "2023-08-30T07:23:57.409Z",
             "modified": "2023-08-30T07:24:25.254Z",
             "name": "Exfiltration server",
-            "description": "External server used by Artemis to exfiltrate data to. The link between the server and the target is usually a covert channel. It has low confidence due to the few sightings of this infrastructure in IDSs",
+            "description": "External server used by RDMTA101 to exfiltrate data to. The link between the server and the target is usually a covert channel. It has low confidence due to the few sightings of this infrastructure in IDSs",
             "infrastructure_types": [
                 "exfiltration"
             ],
@@ -440,7 +440,7 @@
             "created": "2023-08-28T12:18:33.527Z",
             "modified": "2023-08-28T12:19:47.511Z",
             "name": "Madrid",
-            "description": "Capital of Spain. Investigations have shown with medium confidence that members of Artemis were based in Madrid.",
+            "description": "Capital of Spain. Investigations have shown with medium confidence that members of RDMTA101 were based in Madrid.",
             "latitude": 40,
             "longitude": -3,
             "x_opencti_location_type": "City",
@@ -479,7 +479,7 @@
             "created": "2023-08-16T13:33:51.062Z",
             "modified": "2023-08-16T13:45:24.676Z",
             "name": "Dware",
-            "description": "Dware (or D-ware) is a malware used by Artemis. It leverages a vulnerability in the Keycloack authenticator allowing an adversary to perform Authentication abuse or Session Spoofing. It is usually used as a preparatory step to credentials theft and data exfiltration.",
+            "description": "Dware (or D-ware) is a malware used by RDMTA101. It leverages a vulnerability in the Keycloack authenticator allowing an adversary to perform Authentication abuse or Session Spoofing. It is usually used as a preparatory step to credentials theft and data exfiltration.",
             "malware_types": [
                 "backdoor"
             ],
@@ -520,13 +520,13 @@
             "type": "malware"
         },
         {
-            "id": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+            "id": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30",
             "spec_version": "2.1",
             "revoked": false,
             "confidence": 75,
             "created": "2023-08-16T13:08:56.115Z",
-            "modified": "2023-08-16T13:16:10.407Z",
-            "name": "Artemis",
+            "modified": "2023-09-11T13:09:42.740Z",
+            "name": "RDMTA101",
             "threat_actor_types": [
                 "spy"
             ],
@@ -536,7 +536,7 @@
                 "malware-author"
             ],
             "goals": [
-                "Artemis has been identified as a group of cyber- criminals tied with the APT2132 intrusion  set. They are known for having authored several malware, in particular used for data exfiltration."
+                "RDMTA101 has been identified as a group of cyber- criminals tied with the APT2132 intrusion  set. They are known for having authored several malware, in particular used for data exfiltration."
             ],
             "sophistication": "expert",
             "resource_level": "government",
@@ -548,7 +548,7 @@
                 "notoriety"
             ],
             "x_opencti_type": "Threat-Actor-Group",
-            "threat_actor_group": "Artemis",
+            "threat_actor_group": "RDMTA101",
             "x_opencti_id": "56a1926c-9f0d-4e24-b62f-4ceae125f71c",
             "type": "threat-actor"
         },
@@ -604,7 +604,7 @@
             "x_opencti_id": "9489d8aa-b9fa-4042-a92b-5f3de7938d33",
             "x_opencti_type": "targets",
             "type": "relationship",
-            "source_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+            "source_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30",
             "target_ref": "vulnerability--c1349052-4b3d-53de-9393-dab76dd01052"
         },
         {
@@ -703,7 +703,7 @@
             "x_opencti_type": "related-to",
             "type": "relationship",
             "source_ref": "location--69b20db1-498b-59d4-8b79-83eee0456cff",
-            "target_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b"
+            "target_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30"
         },
         {
             "id": "relationship--6acc9ee0-6952-4c0d-bb66-bbded72519fb",
@@ -754,7 +754,7 @@
             "x_opencti_id": "4c40cbd1-196b-48f6-828e-a0cd0903b539",
             "x_opencti_type": "uses",
             "type": "relationship",
-            "source_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+            "source_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30",
             "target_ref": "malware--a9ad4436-8488-5db7-82ac-28a818faf27b"
         },
         {
@@ -772,7 +772,7 @@
             "x_opencti_type": "indicates",
             "type": "relationship",
             "source_ref": "indicator--21d281f3-77af-593f-a40d-4154f83148da",
-            "target_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b"
+            "target_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30"
         },
         {
             "id": "relationship--99680455-a51e-4dd5-a64f-92f325c54658",
@@ -827,7 +827,7 @@
             "id": "relationship--ab867f8d-a0ed-41ed-8350-58b404e028c4",
             "spec_version": "2.1",
             "relationship_type": "related-to",
-            "description": "APT2312 is believe to be an intrusion set linked to Artemis, with medium confidence",
+            "description": "APT2312 is believe to be an intrusion set linked to RDMTA101, with medium confidence",
             "start_time": "2023-09-14T22:00:00.000Z",
             "stop_time": "2023-09-14T22:00:00.000Z",
             "revoked": false,
@@ -839,7 +839,7 @@
             "x_opencti_type": "related-to",
             "type": "relationship",
             "source_ref": "intrusion-set--a45bee91-a918-5052-be46-675d5a57171e",
-            "target_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b"
+            "target_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30"
         },
         {
             "id": "relationship--b17cfd60-4620-4f3d-8c9a-420df5a6be87",
@@ -856,7 +856,7 @@
             "x_opencti_type": "indicates",
             "type": "relationship",
             "source_ref": "indicator--18906d97-cfa2-5ff3-a695-7e1d199a7f0a",
-            "target_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b"
+            "target_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30"
         },
         {
             "id": "relationship--b9500121-585e-47a7-8852-7a3134b082a5",
@@ -872,7 +872,7 @@
             "x_opencti_id": "61dc0061-f96d-4007-8276-4ed56956aeb5",
             "x_opencti_type": "uses",
             "type": "relationship",
-            "source_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+            "source_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30",
             "target_ref": "attack-pattern--5d2a0e29-a53f-5e67-b604-668b3e1daa7a"
         },
         {
@@ -904,7 +904,7 @@
             "x_opencti_id": "9ceab61f-e5a7-48ce-b529-10e40f0bc421",
             "x_opencti_type": "uses",
             "type": "relationship",
-            "source_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+            "source_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30",
             "target_ref": "infrastructure--509eb5e5-10b9-525c-8ba8-c342c51c4b45"
         },
         {
@@ -936,7 +936,7 @@
             "x_opencti_id": "2842b886-f69d-4ca0-acb0-15ce3d3a86c4",
             "x_opencti_type": "uses",
             "type": "relationship",
-            "source_ref": "threat-actor--3451f6c6-f512-5c53-956b-1c3cd5c7b06b",
+            "source_ref": "threat-actor--a08da031-a765-5ad5-9437-e256d7aadc30",
             "target_ref": "malware--b9ae3909-bea0-5146-8a0a-f7cf869026a7"
         },
         {
