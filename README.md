@@ -48,28 +48,31 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+The following tools are used in the framework
+* python3
+* neo4j desktop
 
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+The following python libraries are required for running the framework:
+* pgmpy
+* numpy
+* sklearn
+* neo4j
+* stix2
+* difflib
 
-### Installation
+### Command line interface
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clustering
+    ```sh
+     python3 main.py cluster
+   ```
+2. Scoring
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+    python3 main.py score
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
+Parameters in the main.py file:
+* stix bundle url
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
